@@ -1,0 +1,30 @@
+@font-face {
+  font-family: ff-forward;
+  src: url(assets/fonts/FFFFORWA.TTF);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  left: 20vw;
+  top: 15vh;
+}
+
+#startBtn {
+  background-color: #ffae00;
+  color: #777777;
+  border: 2px solid #777777;
+  font-family: ff-forward;
+}
+
+#startBtn:hover {
+  background-color: #777777;
+  color: #ffae00;
+  border: 2px solid #ffae00;
+}
