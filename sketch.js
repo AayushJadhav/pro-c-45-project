@@ -24,19 +24,19 @@ var gameState = 0;
 function preload() {
   bgImg0 = loadImage("assets/images/background0.png");
   bgImg1 = loadImage("assets/images/background1.png");
-  adventurerImgR = loadAnimation("assets/images/protagonR.png");
-  adventurerImgL = loadAnimation("assets/images/protagonL.png");
+  adventurerImgR = loadAnimation("assets/images/protagonist_00.png");
+  adventurerImgL = loadAnimation("assets/images/protagonist_01.png");
   adventurerRunningR = loadAnimation(
-    "assets/images/protagonR_running1.png",
-    "assets/images/protagonR_running2.png",
-    "assets/images/protagonR_running3.png",
-    "assets/images/protagonR_running4.png"
+    "assets/images/protagonist_06.png",
+    "assets/images/protagonist_07.png",
+    "assets/images/protagonist_08.png",
+    "assets/images/protagonist_09.png"
   );
   adventurerRunningL = loadAnimation(
-    "assets/images/protagonL_running1.png",
-    "assets/images/protagonL_running2.png",
-    "assets/images/protagonL_running3.png",
-    "assets/images/protagonL_running4.png"
+    "assets/images/protagonist_02.png",
+    "assets/images/protagonist_03.png",
+    "assets/images/protagonist_04.png",
+    "assets/images/protagonist_05.png"
   );
 
   fff_forward = loadFont("assets/fonts/FFFFORWA.ttf");
@@ -57,7 +57,7 @@ function setup() {
   adventurer.addAnimation("standingL", adventurerImgL);
   adventurer.addAnimation("runningR", adventurerRunningR);
   adventurer.addAnimation("runningL", adventurerRunningL);
-  adventurer.scale = 0.4;
+  adventurer.scale = 1;
 
   ground = createSprite(400, 360, 800, 20);
   ground.shapeColor = "red";
