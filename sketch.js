@@ -39,8 +39,8 @@ function preload() {
     "assets/images/protagonist_05.png"
   );
 
-  fff_forward = loadFont("assets/fonts/FFFFORWA.ttf");
-  backTo1982 = loadFont("assets/fonts/BACKTO1982.ttf");
+  fff_forward = loadFont("assets/fonts/FFFFORWA.TTF");
+  backTo1982 = loadFont("assets/fonts/BACKTO1982.TTF");
 }
 
 function setup() {
